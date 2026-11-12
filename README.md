@@ -64,7 +64,6 @@ citizen-assist-ai/
 ├── base_conhecimento.py     normalizar() + class BaseConhecimento
 ├── assistente.py            class Assistente
 ├── teste_busca.py           auto-verificação com asserts
-├── reports/                 pesquisa das fontes oficiais
 ├── docs/                    spec de design do projeto
 └── data/
     ├── base_conhecimento.json
@@ -114,7 +113,7 @@ A pergunta, as palavras-chave e os títulos passam por `normalizar()`, que põe 
 **Pesos e limiares são exatamente os do enunciado.** Mudamos duas coisas, ambas por motivo verificado em teste:
 
 1. **`normalizar()` também remove `- / [ ] { } " '`**, além dos sinais do enunciado. Sem isso, `"e-título"` e `"e título"` viravam textos diferentes e a palavra-chave não casava.
-2. **`buscar()` ordena com `key=lambda par: par[0]`**, não pelas tuplas diretas. Ordenar as tuplas estoura `TypeError` quando duas orientações empatam na pontuação, porque o Python passa a comparar os objetos `Orientacao`. Empate é comum numa base de 17 registros. Há um teste cobrindo esse caso em `teste_busca.py`.
+2. **`buscar()` ordena com `key=lambda par: par[0]`**, não pelas tuplas diretas. Ordenar as tuplas estoura `TypeError` quando duas orientações empatam na pontuação, porque o Python passa a comparar os objetos `Orientacao`. Empate é comum numa base pequena. Há um teste cobrindo esse caso em `teste_busca.py`.
 
 ---
 
@@ -143,7 +142,7 @@ Na saída, o assistente pede a nota de facilidade e exporta tudo para `data/aten
 
 ## Fontes consultadas
 
-Todas as orientações vêm de domínios oficiais (`gov.br`, `planalto.gov.br`, `tse.jus.br`, `poupatempo.sp.gov.br`), consultados em **12/11/2026**. O levantamento completo, com o status HTTP de cada URL e a lista do que não pôde ser confirmado, está em [`reports/`](reports/).
+Todas as orientações vêm de domínios oficiais (`gov.br`, `planalto.gov.br`, `tse.jus.br`, `poupatempo.sp.gov.br`), consultados em **12/11/2026**.
 
 | # | Assunto | Fonte |
 |---|---|---|
@@ -165,7 +164,7 @@ Todas as orientações vêm de domínios oficiais (`gov.br`, `planalto.gov.br`, 
 | 16 | Vagas pelo Sine | https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine |
 | 17 | Seguro-desemprego | https://www.gov.br/pt-br/servicos/solicitar-o-seguro-desemprego |
 
-Cada orientação carrega **uma** URL no campo `fonte`, que é a principal do assunto. Quatro delas apoiam-se também em páginas oficiais de segunda leitura, todas abertas e conferidas na mesma data:
+Cada orientação carrega **uma** URL no campo `fonte`, que é a principal do assunto. Três delas apoiam-se também em páginas oficiais complementares, conferidas na mesma data:
 
 | Orientação | Fonte de apoio | Para qual fato |
 |---|---|---|
@@ -174,10 +173,7 @@ Cada orientação carrega **uma** URL no campo `fonte`, que é a principal do as
 | 15 | https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/carteira-de-trabalho/perguntas-frequentes-carteira-de-trabalho-digital | contrato visível em até 48 horas e correção pelo eSocial |
 | 17 | https://www.gov.br/pt-br/temas/perguntas-frequentes-seguro-desemprego | prazo do 7º dia até 120 dias |
 
-Duas coisas que a segunda rodada de pesquisa derrubou:
-
-- **Não existe um portal público nacional único de vagas de estágio.** só existe programas por órgão e portais estaduais; o Sigepe Oportunidades é para servidores. Por isso a orientação 14 manda procurar a própria instituição de ensino, e não um site que não existe.
-- **O endereço antigo do Emprega Brasil (`empregabrasil.mte.gov.br`) não responde mais.** A orientação 16 aponta para a página de serviço do gov.br, que é estável, e não para o portal, que já trocou de endereço uma vez.
+Uma decisão de conteúdo: **não existe um portal público nacional único de vagas de estágio**, só programas por órgão e portais estaduais. Por isso a orientação 14 manda procurar a própria instituição de ensino, que é quem atesta a matrícula e assina o termo.
 
 Três informações que a pesquisa corrigiu e que circulam erradas:
 
@@ -213,18 +209,18 @@ Para responder `s` ou `n` seguimos uma regra fixa: `s` quando a orientação dev
 
 - `quanto ganha um estagiário` — caiu na orientação 8, que é a do assunto, mas a lei não fixa valor de bolsa; a resposta não traz o número que a pessoa queria.
 
-**O que a ampliação resolveu.** As quatro perguntas abaixo iam para o lugar errado, ou para lugar nenhum, na base de 13:
+**Perguntas que a bateria confirmou.** Quatro perguntas de uso comum e a orientação em que cada uma cai:
 
-| Pergunta | Base de 13 | Base de 17 |
-|---|---|---|
-| `como fazer um estágio?` | direitos do estágio (8) | **conseguir uma vaga de estágio (14)** |
-| `faço estágio e quero virar um júnior` | direitos do estágio (8) | **ser efetivado depois do estágio (15)** |
-| `como faço o seguro desemprego` | não encontrava nada | **seguro-desemprego (17)** |
-| `como faço pra arrumar emprego` | Jovem Aprendiz (7) | **procurar vaga nos canais do governo (16)** |
+| Pergunta | Orientação |
+|---|---|
+| `como fazer um estágio?` | conseguir uma vaga de estágio (14) |
+| `faço estágio e quero virar um júnior` | ser efetivado depois do estágio (15) |
+| `como faço o seguro desemprego` | seguro-desemprego (17) |
+| `como faço pra arrumar emprego` | procurar vaga nos canais do governo (16) |
 
 ### Como três orientações sobre estágio convivem na mesma busca
 
-A base tem agora três orientações de estágio: **conseguir a vaga (14)**, **direitos de quem já estagia (8)** e **efetivação no fim (15)**. As três carregam a palavra-chave do assunto, `estagio`, então ela empata em todas e **quem decide é a frase de intenção**:
+A base tem três orientações de estágio: **conseguir a vaga (14)**, **direitos de quem já estagia (8)** e **efetivação no fim (15)**. As três carregam a palavra-chave do assunto, `estagio`, então ela empata em todas e **quem decide é a frase de intenção**:
 
 | Pergunta | Frase que decide | Pontuação |
 |---|---|---|
