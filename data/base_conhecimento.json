@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "categoria": "Documentos",
+    "titulo": "Tirar o CPF (primeira via)",
+    "palavras_chave": ["cpf", "tirar cpf", "primeira via do cpf", "inscricao no cpf", "numero do cpf"],
+    "resposta": "Você pede o CPF pela internet, de graça, no portal gov.br. Se o sistema devolver só um número de protocolo em vez do comprovante, o cadastro ainda não está pronto: leve esse protocolo e seus documentos à Receita Federal, por e-mail ou pessoalmente. Em cartório, Banco do Brasil, Caixa ou Correios o serviço custa R$ 7,00.",
+    "documentos": [
+      "Documento de identificação com foto",
+      "Certidão de nascimento ou de casamento",
+      "Foto segurando o documento, se enviar por e-mail"
+    ],
+    "onde": "No serviço \"Inscrever no CPF\" do portal gov.br; se gerar protocolo, conclua numa unidade da Receita Federal",
+    "fonte": "https://www.gov.br/pt-br/servicos/inscrever-no-cpf",
+    "verificado_em": "2026-11-12"
+  },
+  {
+    "id": 2,
+    "categoria": "Documentos",
+    "titulo": "Tirar o RG ou a Carteira de Identidade Nacional (CIN)",
+    "palavras_chave": ["rg", "carteira de identidade", "cin", "identidade", "tirar rg", "documento de identidade"],
+    "resposta": "Em São Paulo a Carteira de Identidade Nacional é emitida pelo Poupatempo e é gratuita. Você agenda pelo site ou aplicativo do Poupatempo e comparece com a certidão de nascimento ou de casamento original e o seu número de CPF. O documento fica pronto em até 26 dias úteis. A versão digital só aparece no aplicativo gov.br depois que a carteira é emitida, e em outros estados as regras podem ser diferentes.",
+    "documentos": [
+      "Certidão de nascimento ou de casamento original, mais uma cópia simples",
+      "Número do CPF",
+      "Menores de 16 anos: acompanhados do responsável legal"
+    ],
+    "onde": "Em um posto do Poupatempo no Estado de São Paulo, com agendamento prévio pelo site ou aplicativo",
+    "fonte": "https://www.poupatempo.sp.gov.br/carta/D97C3844-A2D9-4C9E-B364-CB4FEB26A1FB",
+    "verificado_em": "2026-11-12"
+  },
+  {
+    "id": 3,
+    "categoria": "Documentos",
+    "titulo": "Tirar o primeiro título de eleitor",
+    "palavras_chave": ["titulo de eleitor", "titulo", "eleitor", "votar", "e-titulo", "primeiro titulo"],
+    "resposta": "Quem nunca tirou título pode começar o pedido pela internet, no Autoatendimento Eleitoral do site do TSE. Mas a coleta das digitais só é feita pessoalmente: para o primeiro título você precisa ir ao cartório eleitoral concluir o atendimento, em geral com agendamento. Depois de emitido, o título fica no aplicativo e-Título. Em anos de eleição o cadastro fecha por alguns meses e não aceita pedidos novos.",
+    "documentos": [
+      "Documento oficial com foto, frente e verso (a CNH não é aceita no alistamento)",
+      "Comprovante de residência dos últimos 3 meses",
+      "Homens: comprovante de quitação do serviço militar"
+    ],
+    "onde": "Pedido pelo Autoatendimento Eleitoral no site do TSE, com ida ao cartório eleitoral do seu município para a biometria",
+    "fonte": "https://www.tse.jus.br/servicos-eleitorais",
+    "verificado_em": "2026-11-12"
+  },
+  {
+    "id": 4,
+    "categoria": "Documentos",
+    "titulo": "Fazer o alistamento militar obrigatório",
+    "palavras_chave": ["alistamento militar", "alistamento", "servico militar", "exercito", "junta militar", "reservista"],
+    "resposta": "Todo homem brasileiro deve se alistar no ano em que completa 18 anos, entre 1º de janeiro e 30 de junho. Nesse prazo o alistamento é gratuito e feito inteiramente pela internet, bastando informar o CPF. Quem perde o prazo precisa procurar a Junta de Serviço Militar e pagar multa. Enquanto estiver em débito, a pessoa não tira passaporte, não presta concurso público e não obtém carteira profissional.",
+    "documentos": [
+      "Número do CPF, para o alistamento pela internet",
+      "Certidão de nascimento, no atendimento presencial",
+      "Comprovante de residência, no atendimento presencial"
+    ],
+    "onde": "Pela internet em alistamento.eb.mil.br; fora do prazo, na Junta de Serviço Militar da sua cidade",
+    "fonte": "https://www.gov.br/pt-br/servicos/alistar-se-no-servico-militar-obrigatorio",
+    "verificado_em": "2026-11-12"
+  },
+  {
+    "id": 5,
+    "categoria": "Trabalho",
+    "titulo": "Tirar a Carteira de Trabalho Digital",
+    "palavras_chave": ["carteira de trabalho", "ctps", "carteira de trabalho digital", "tirar carteira de trabalho", "carteira profissional", "carteira assinada"],
+    "resposta": "A Carteira de Trabalho agora é digital, sai na hora e é de graça. Você só precisa do CPF e de uma conta gov.br para usar o aplicativo Carteira de Trabalho Digital ou o site do governo. Não precisa ir a posto de atendimento nem pagar nada. A carteira de papel só é emitida em casos excepcionais, para anotar empregos anteriores à versão digital.",
+    "documentos": [
+      "Número do CPF",
+      "Conta gov.br, em qualquer nível (bronze, prata ou ouro)",
+      "Celular ou computador com internet"
+    ],
+    "onde": "No aplicativo Carteira de Trabalho Digital ou no portal gov.br, tudo pela internet",
+    "fonte": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho",
+    "verificado_em": "2026-11-12"
+  },
+  {
+    "id": 6,
+    "categoria": "Trabalho",
+    "titulo": "Descobrir o número do PIS, NIS ou NIT",
+    "palavras_chave": ["pis", "nis", "nit", "pasep", "numero do pis", "meu nis"],
+    "resposta": "PIS, NIS, NIT e PASEP são nomes diferentes do mesmo número que identifica você no trabalho e na Previdência. Para descobrir o seu, use a opção Meu NIS no aplicativo CAIXA TEM ou no site da Caixa, ou ligue no 135. Tudo isso é de graça. Se você nunca teve carteira assinada é comum já ter o número por causa do CadÚnico, e se não tiver a própria empresa cria quando te registra.",
+    "documentos": [
+      "Número do CPF",
+      "Senha do Login CAIXA ou conta gov.br",
+      "Documento de identificação com foto, no atendimento presencial"
+    ],
+    "onde": "No aplicativo CAIXA TEM, no site da Caixa, pelo telefone 135 ou numa agência da Caixa",
+    "fonte": "https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/inscricao",
+    "verificado_em": "2026-11-12"
+  },
+  {
+    "id": 7,
+    "categoria": "Trabalho",
+    "titulo": "Entrar no programa Jovem Aprendiz",
+    "palavras_chave": ["jovem aprendiz", "aprendiz", "aprendizagem", "menor aprendiz", "primeiro emprego", "emprego"],
+    "resposta": "A Aprendizagem Profissional é para quem tem de 14 a 24 anos incompletos, e pessoa com deficiência pode participar em qualquer idade. É emprego de verdade, com carteira assinada, salário e FGTS, e dura no máximo 2 anos. Quem ainda não terminou o ensino médio precisa estar matriculado e indo à escola, e a jornada é de até 6 horas por dia. Não existe site único de vagas do governo: procure uma entidade formadora da sua cidade, como Senai, Senac ou Senat, ou vá direto nas empresas.",
+    "documentos": [
+      "CPF e documento de identidade",
+      "Comprovante de matrícula ou de conclusão escolar",
+      "Carteira de Trabalho Digital",
+      "Autorização do responsável, para menores de 18 anos"
+    ],
+    "onde": "Nas entidades formadoras (Senai, Senac, Senat, escolas técnicas públicas ou ONGs cadastradas) ou direto na empresa",
+    "fonte": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/aprendizagem-profissional",
+    "verificado_em": "2026-11-12"
+  },
+  {
+    "id": 8,
+    "categoria": "Trabalho",
+    "titulo": "Conhecer os direitos de quem faz estágio",
+    "palavras_chave": ["estagio", "estagiario", "bolsa de estagio", "direitos do estagio", "recesso do estagio"],
+    "resposta": "Estágio não é emprego disfarçado: a jornada é de no máximo 6 horas por dia e 30 por semana. Em época de provas, essa carga cai pelo menos pela metade. No estágio que não é obrigatório pelo curso, a empresa é obrigada a pagar bolsa e auxílio-transporte, e você tem 30 dias de recesso remunerado a cada ano. Se a empresa não cumprir as regras, o estágio pode virar vínculo de emprego com carteira assinada.",
+    "documentos": [
+      "Termo de compromisso assinado por você, pela empresa e pela instituição de ensino",
+      "Comprovante de matrícula e de frequência escolar",
+      "Plano de atividades do estágio"
+    ],
+    "onde": "Procure a coordenação de estágio da sua escola ou faculdade; se a empresa insistir no erro, denuncie em denuncia.sit.trabalho.gov.br",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11788.htm",
+    "verificado_em": "2026-11-12"
+  },
+  {
+    "id": 9,
+    "categoria": "Trabalho",
+    "titulo": "A empresa não assinou minha carteira",
+    "palavras_chave": ["carteira nao assinada", "sem carteira assinada", "trabalhar sem carteira", "nao assinou", "nao assinaram", "denuncia trabalhista", "trabalho sem registro", "trabalho informal"],
+    "resposta": "Trabalhar sem carteira assinada é irregular e você pode denunciar de graça pela internet, sem advogado. A denúncia exige login na conta gov.br e não pode ser anônima, mas seus dados ficam em sigilo e não são revelados à empresa durante a fiscalização. Junte provas do vínculo: mensagens com a chefia, escalas, comprovantes de pagamento e nomes de colegas. O telefone 158 serve para tirar dúvidas, não para registrar a denúncia.",
+    "documentos": [
+      "Conta gov.br",
+      "Dados da empresa: nome, endereço e CNPJ, se tiver",
+      "Provas do trabalho: mensagens, escalas, comprovantes de pagamento"
+    ],
+    "onde": "Pela internet, no Canal Denúncia da Inspeção do Trabalho em denuncia.sit.trabalho.gov.br",
+    "fonte": "https://www.gov.br/pt-br/servicos/realizar-denuncia-trabalhista",
+    "verificado_em": "2026-11-12"
+  },
+  {
+    "id": 10,
+    "categoria": "Trabalho",
+    "titulo": "Regras para quem tem menos de 18 anos",
+    "palavras_chave": ["menor de 18", "menos de 18", "menor de idade", "idade minima para trabalhar", "idade para trabalhar", "comecar a trabalhar", "trabalhar a noite", "trabalho noturno", "trabalho infantil"],
+    "resposta": "No Brasil só é permitido trabalhar a partir dos 16 anos, e aos 14 apenas como aprendiz. Quem não tem 18 anos não pode trabalhar à noite, entre 22h e 5h, nem em atividade perigosa, insalubre ou pesada. O trabalho também não pode ficar em horário ou lugar que impeça você de ir à escola. Se alguma dessas regras estiver sendo quebrada, dá para denunciar de graça à fiscalização do trabalho.",
+    "documentos": [
+      "Documento de identidade e CPF",
+      "Comprovante de matrícula e de frequência escolar",
+      "Autorização do responsável legal"
+    ],
+    "onde": "Denúncia em denuncia.sit.trabalho.gov.br, no Sistema Ipê (que aceita denúncia anônima de trabalho infantil) ou no Conselho Tutelar da sua cidade",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm",
+    "verificado_em": "2026-11-12"
+  },
+  {
+    "id": 11,
+    "categoria": "Educação e Renda",
+    "titulo": "Pedir a isenção da taxa do Enem e se inscrever",
+    "palavras_chave": ["enem", "isencao do enem", "taxa do enem", "inscricao do enem", "prova do enem"],
+    "resposta": "Todo ano o Inep abre um prazo para pedir a isenção da taxa do Enem na Página do Participante, com a conta gov.br. Tem direito quem está na 3ª série do ensino médio em escola pública, quem fez todo o ensino médio em escola pública ou como bolsista integral, e quem é de família de baixa renda inscrita no CadÚnico. Atenção: conseguir a isenção não inscreve você na prova, a inscrição é um pedido separado feito depois. Quem teve isenção no ano anterior e faltou aos dois dias de prova precisa justificar a ausência.",
+    "documentos": [
+      "Conta gov.br",
+      "Número do CPF",
+      "Inscrição ativa no CadÚnico, para a categoria de baixa renda"
+    ],
+    "onde": "Na Página do Participante do Enem, em enem.inep.gov.br/participante",
+    "fonte": "https://www.gov.br/inep/pt-br/centrais-de-conteudo/noticias/enem/confira-o-passo-a-passo-para-pedir-isencao-da-taxa-de-inscricao",
+    "verificado_em": "2026-11-12"
+  },
+  {
+    "id": 12,
+    "categoria": "Educação e Renda",
+    "titulo": "Conseguir bolsa pelo Prouni ou financiamento pelo Fies",
+    "palavras_chave": ["prouni", "fies", "bolsa de estudo", "financiamento estudantil", "bolsa na faculdade"],
+    "resposta": "O Prouni dá bolsa em faculdade particular e o Fies financia a mensalidade para pagar depois. Nos dois é preciso ter feito o Enem, tirado pelo menos 450 pontos na média das cinco provas e não ter zerado a redação; quem fez como treineiro não pode participar. A bolsa integral do Prouni é para renda de até 1,5 salário mínimo por pessoa da família, e a de 50% para até 3 salários mínimos. A inscrição é gratuita e feita só pela internet, no Portal Único de Acesso ao Ensino Superior.",
+    "documentos": [
+      "Conta gov.br",
+      "CPF e número de inscrição do Enem",
+      "Comprovantes de renda de todas as pessoas da família",
+      "Comprovante de conclusão do ensino médio"
+    ],
+    "onde": "Pela internet, no Portal Único de Acesso ao Ensino Superior, em acessounico.mec.gov.br",
+    "fonte": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/janeiro/publicado-edital-do-fies-para-o-1o-semestre-de-2026",
+    "verificado_em": "2026-11-12"
+  },
+  {
+    "id": 13,
+    "categoria": "Educação e Renda",
+    "titulo": "Entrar no Cadastro Único (CadÚnico)",
+    "palavras_chave": ["cadunico", "cadastro unico", "bolsa familia", "cras", "programas sociais"],
+    "resposta": "O Cadastro Único é a lista do governo federal com as informações das famílias de baixa renda. É por ele que o governo escolhe quem entra em programas como o Bolsa Família, a Tarifa Social de energia e a isenção da taxa do Enem. O cadastro é gratuito e presencial: uma pessoa da família, com 16 anos ou mais, faz uma entrevista de cerca de uma hora no CRAS. Estar cadastrado não garante benefício automaticamente, e o cadastro precisa ser atualizado pelo menos a cada dois anos.",
+    "documentos": [
+      "CPF ou título de eleitor do responsável familiar",
+      "Documento oficial com foto",
+      "Comprovante de residência",
+      "Um documento de cada pessoa que mora na casa"
+    ],
+    "onde": "Presencialmente num CRAS ou posto do Cadastro Único da sua cidade; na capital paulista o atendimento é por agendamento",
+    "fonte": "https://www.gov.br/pt-br/servicos/inscrever-se-no-cadastro-unico-para-programas-sociais-do-governo-federal",
+    "verificado_em": "2026-11-12"
+  },
+  {
+    "id": 14,
+    "categoria": "Trabalho",
+    "titulo": "Conseguir uma vaga de estágio",
+    "palavras_chave": ["estagio", "vaga de estagio", "quero estagiar", "como conseguir estagio", "conseguir um estagio", "como faco um estagio", "arrumar estagio", "arrumar um estagio", "procurar estagio", "fazer um estagio", "processo de estagio", "termo de compromisso", "primeiro estagio"],
+    "resposta": "Para estagiar você precisa estar matriculado e frequentando o ensino médio, o curso técnico ou a faculdade. Procure o setor de estágios da sua escola ou faculdade: é ela quem atesta sua matrícula e assina os papéis. A empresa e a escola também podem usar um agente de integração, que não pode cobrar nada de você. O estágio só vale com termo de compromisso assinado por você, pela empresa e pela instituição de ensino, mais o plano de atividades.",
+    "documentos": [
+      "Comprovante de matrícula e frequência, emitido pela instituição de ensino",
+      "Termo de compromisso assinado por você, pela empresa e pela instituição de ensino",
+      "Plano de atividades do estágio",
+      "Assinatura do representante ou assistente legal, se você tiver menos de 18 anos"
+    ],
+    "onde": "No setor de estágios da sua escola, faculdade ou instituto federal, que faz o convênio e assina o termo; os órgãos públicos publicam seus editais de estágio no gov.br",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11788.htm",
+    "verificado_em": "2026-11-12"
+  },
+  {
+    "id": 15,
+    "categoria": "Trabalho",
+    "titulo": "Ser efetivado depois do estágio",
+    "palavras_chave": ["estagio", "virar efetivo", "efetivado", "efetivacao", "virar junior", "virar um junior", "junior", "ser contratado", "contrato de experiencia", "periodo de experiencia", "primeiro contrato", "exame admissional", "fim do estagio", "acabou meu estagio", "terminou meu estagio"],
+    "resposta": "O estágio não é emprego: a lei diz que ele não cria vínculo e dura no máximo 2 anos na mesma empresa, salvo pessoa com deficiência. Quando a empresa te contrata, aí sim nasce o vínculo, e ela tem 5 dias úteis para anotar a data de admissão e o salário na sua carteira digital. O período de experiência não pode passar de 90 dias. O exame médico de admissão é por conta da empresa, nunca sua.",
+    "documentos": [
+      "Número do CPF, que identifica você na carteira digital",
+      "Atestado do exame médico admissional, pago pela empresa",
+      "Contrato de experiência por escrito, quando houver",
+      "Celular com o aplicativo Carteira de Trabalho Digital"
+    ],
+    "onde": "No aplicativo Carteira de Trabalho Digital, que mostra o contrato até 48 horas depois do envio; se não aparecer, cobre a empresa, que corrige pelo eSocial",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11788.htm",
+    "verificado_em": "2026-11-12"
+  },
+  {
+    "id": 16,
+    "categoria": "Trabalho",
+    "titulo": "Procurar vaga de emprego nos canais do governo",
+    "palavras_chave": ["procurar vaga", "vaga de junior", "arrumar emprego", "arranjar emprego", "conseguir emprego", "procurar emprego", "sine", "emprega brasil", "intermediacao de mao de obra", "cadastrar curriculo", "banco de vagas", "onde procurar trabalho", "posto de atendimento ao trabalhador"],
+    "resposta": "O Sine é o serviço de intermediação de mão de obra do governo e é gratuito. Você se cadastra no Portal Emprega Brasil usando a conta gov.br, que é criada com o CPF. Depois do cadastro, as vagas do seu município aparecem no seu perfil, e dá para se candidatar pelo site ou pelo aplicativo Carteira de Trabalho Digital. Se preferir atendimento presencial, procure um posto do Sine. Mantenha seus dados e sua experiência atualizados.",
+    "documentos": [
+      "Conta gov.br, em qualquer nível (bronze, prata ou ouro)",
+      "Número do CPF",
+      "Documento com foto, para o atendimento presencial",
+      "Carteira de Trabalho, para o atendimento presencial"
+    ],
+    "onde": "No Portal Emprega Brasil e no aplicativo Carteira de Trabalho Digital, ou presencialmente num posto do Sine; em São Paulo, também nos Postos de Atendimento ao Trabalhador (PAT)",
+    "fonte": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+    "verificado_em": "2026-11-12"
+  },
+  {
+    "id": 17,
+    "categoria": "Trabalho",
+    "titulo": "Pedir o seguro-desemprego depois da demissão",
+    "palavras_chave": ["seguro desemprego", "fui demitido", "demissao sem justa causa", "fui mandado embora", "fui dispensado", "prazo para pedir o seguro", "quantas parcelas do seguro"],
+    "resposta": "Se você foi demitido sem justa causa de um trabalho com registro, pode ter direito ao seguro-desemprego. Na primeira vez que pede, é preciso ter recebido salário por pelo menos 12 meses nos últimos 18 antes da demissão. O pedido vai do 7º dia até 120 dias depois da saída. Quem pede demissão ou sai por justa causa não tem direito. O número de parcelas depende do tempo trabalhado e aparece na própria consulta.",
+    "documentos": [
+      "Requerimento do Seguro-Desemprego, que a empresa entrega na demissão",
+      "Número do CPF",
+      "Dados de uma conta bancária no seu nome, que não seja conta salário nem conjunta"
+    ],
+    "onde": "No portal gov.br ou no aplicativo Carteira de Trabalho Digital; presencialmente, agendando o atendimento pelo telefone 158",
+    "fonte": "https://www.gov.br/pt-br/servicos/solicitar-o-seguro-desemprego",
+    "verificado_em": "2026-11-12"
+  }
+]

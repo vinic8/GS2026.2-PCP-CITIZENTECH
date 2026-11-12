@@ -1,0 +1,34 @@
+﻿data,origem,pergunta,id_orientacao,encontrou,ajudou,tentativas,tempo_s,facilidade
+2026-11-12T14:16:22,pergunta,como fazer um estagio?,14,True,True,1,0.0,5
+2026-11-12T14:16:22,pergunta,"quero estagiar, por onde comeco",14,True,True,1,0.0,5
+2026-11-12T14:16:22,pergunta,"faco estagio e quero virar um junior, quais as burocracias?",15,True,True,1,0.0,5
+2026-11-12T14:16:22,pergunta,quanto ganha um estagiario,8,True,False,1,0.0,5
+2026-11-12T14:16:22,categoria,Conseguir uma vaga de estágio,14,True,True,1,0.0,5
+2026-11-12T14:16:22,pergunta,fui demitido e agora,17,True,True,1,0.0,4
+2026-11-12T14:16:22,pergunta,qual o prazo pra pedir o seguro desemprego,17,True,True,1,0.0,4
+2026-11-12T14:16:22,pergunta,onde procurar vaga de emprego,16,True,True,1,0.0,4
+2026-11-12T14:16:22,pergunta,preciso de ajuda com aluguel,,False,False,1,0.0,4
+2026-11-12T14:16:22,pergunta,como faco um curriculo,,False,False,2,0.0,4
+2026-11-12T14:16:22,pergunta,como faco minha carteira de trabalho,5,True,True,3,0.0,4
+2026-11-12T14:16:22,pergunta,preciso tirar o cpf,1,True,True,1,0.0,4
+2026-11-12T14:16:22,pergunta,como tiro o titulo de eleitor,3,True,True,1,0.0,4
+2026-11-12T14:16:22,pergunta,tenho menos de 18 posso trabalhar a noite,10,True,True,1,0.0,4
+2026-11-12T14:16:22,pergunta,quero bolsa na faculdade,12,True,True,1,0.0,4
+2026-11-12T14:16:22,pergunta,como faco pra arrumar emprego,16,True,True,1,0.0,4
+2026-11-12T14:16:22,pergunta,o patrao nao assinou minha carteira,9,True,True,1,0.0,4
+2026-11-12T14:16:22,categoria,Fazer o alistamento militar obrigatório,4,True,True,1,0.0,4
+2026-11-12T14:18:12,pergunta,como conseguir um estagio?,14,True,True,1,14.3,4
+2026-11-12T14:18:38,pergunta,como conseguir uma vaga de junior?,15,True,False,1,25.3,4
+2026-11-12T14:18:49,categoria,Fazer o alistamento militar obrigatório,4,True,True,1,4.4,4
+2026-11-12T14:19:02,categoria,Entrar no Cadastro Único (CadÚnico),13,True,True,1,8.2,4
+2026-11-12T14:19:06,categoria,Pedir a isenção da taxa do Enem e se inscrever,11,True,True,1,3.7,4
+2026-11-12T14:19:32,pergunta,qual a carga horario de um estagiário?,8,True,True,1,16.6,4
+2026-11-12T14:21:31,pergunta,perdi meu cpf e agora?,1,True,True,1,17.1,5
+2026-11-12T14:21:50,pergunta,meu rg esta vencido preciso trocar?,2,True,False,1,16.3,5
+2026-11-12T14:22:03,categoria,Tirar o primeiro título de eleitor,3,True,True,1,4.2,5
+2026-11-12T14:22:23,categoria,Pedir o seguro-desemprego depois da demissão,17,True,True,1,8.7,5
+2026-11-12T14:23:03,pergunta,como fazer o enem?,11,True,False,1,22.9,4
+2026-11-12T14:23:20,pergunta,documentos pro enem quais são?,11,True,True,1,17.1,4
+2026-11-12T14:23:34,categoria,Conseguir bolsa pelo Prouni ou financiamento pelo Fies,12,True,True,1,6.6,4
+2026-11-12T14:23:37,categoria,Pedir a isenção da taxa do Enem e se inscrever,11,True,True,1,2.1,4
+2026-11-12T14:23:50,categoria,Tirar o CPF (primeira via),1,True,True,1,2.4,4
