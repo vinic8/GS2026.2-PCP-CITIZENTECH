@@ -286,4 +286,4 @@ Os dois outros pontos são de conteúdo, não de palavra-chave, e ficam como pr�
 
 ## Vídeo técnico
 
-> **A PREENCHER** — link do YouTube (não listado).
+https://youtu.be/YczRH3Z8wyQ
